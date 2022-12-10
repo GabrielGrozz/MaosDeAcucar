@@ -11,7 +11,7 @@ export default {
     cake: String,
     alt: String,
   },
-};
+}
 </script>
 
 <style scoped>

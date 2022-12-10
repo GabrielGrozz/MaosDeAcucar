@@ -10,7 +10,7 @@ export default {
   props: {
     desc: String,
   },
-};
+}
 </script>
 
 <style scoped>

@@ -14,7 +14,7 @@ export default {
       logo: logo,
     };
   },
-};
+}
 </script>
 
 <style scoped>

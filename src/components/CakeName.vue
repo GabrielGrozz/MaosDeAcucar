@@ -9,7 +9,7 @@
 <script>
 export default {
   name: "Cakename",
-};
+}
 </script>
 
 <style scoped>
@@ -25,21 +25,21 @@ export default {
   .name {
     width: 53%;
   }
-};
+}
 @media screen and (max-width: 953px) {
   .name {
     width: 63%;
   }
-};
+}
 @media screen and (max-width: 804px) {
   .name {
     width: 83%;
   }
-};
+}
 @media screen and (max-width: 615px) {
   .name {
     width: 100%;
     border-radius: 0
   }
-};
+}
 </style>

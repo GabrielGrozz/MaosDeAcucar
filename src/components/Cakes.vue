@@ -33,7 +33,7 @@ export default {
     color: String,
     description: String,
   },
-};
+}
 </script>
 
 <style scoped>

@@ -57,7 +57,7 @@ export default {
   components: {
     Cakes,
   },
-};
+}
 </script>
 
 <style scoped>
@@ -66,6 +66,6 @@ export default {
 }
 
 .context {
-  background: rgb(255, 233, 237)
+  background: rgb(255, 233, 237);
 }
 </style>
