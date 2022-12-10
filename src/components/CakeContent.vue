@@ -54,5 +54,5 @@ export default {
     padding-right: 0;
     justify-content: center;
   }
-} ;
+}
 </style>
