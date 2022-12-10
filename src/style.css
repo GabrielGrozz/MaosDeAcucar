@@ -1,0 +1,33 @@
+@font-face {
+   font-family: "boldoni";
+   src: url("./assets/fonts/bodoni_xt/BodoniXT.ttf");
+}
+
+
+* {
+   color: rgb(37, 37, 37);
+   font-family: "boldoni";
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+#app {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.bg-color-1 {
+   background-color: rgb(157, 76, 22);
+}
+.bg-color-2 {
+   background-color: rgb(209, 69, 69);
+}
+.bg-color-3 {
+   background-color: #eee9ce;
+}
+.bg-color-4 {
+   background-color: #8a4c4f;
+}
