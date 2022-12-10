@@ -29,17 +29,17 @@ export default {
 }
 
 @media screen and (max-width: 845px) {
-    .description {
-         height: 350px;
-         margin: 25px 10px 0 45px;
+  .description {
+    height: 350px;
+    margin: 25px 10px 0 45px;
   }
 }
 
 @media screen and (max-width: 730px) {
-    .description {
-         height: 400px;
-         margin: 25px 0 0 0 ;
-         border-radius:0 5px 5px 0  ;
+  .description {
+    height: 400px;
+    margin: 25px 0 0 0;
+    border-radius: 0 5px 5px 0;
   }
 }
 </style>

@@ -66,6 +66,6 @@ export default {
 }
 
 .context {
-  background: rgb(255, 233, 237);
+  background: rgb(255, 233, 237)
 }
 </style>
