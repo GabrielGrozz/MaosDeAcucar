@@ -6,7 +6,7 @@
       >
       <div class="cakes-container">
         <CakeDescription class="cake-desc" :desc="description" />
-        <CakeContent :cake="cake" :alt="name" :class="'bg-color-' + color" />
+        <CakeContent :cake="cake" :alt="name" :class="['bg-color-' + color, 'cake-content']" id="cake-content" />
       </div>
     </div>
   </div>
@@ -49,5 +49,24 @@ export default {
 .cakes-container {
   display: flex;
   justify-content: space-between;
+  height: 650px;
+}
+
+@media screen and (max-width: 615px) {
+  .cakes-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #cake-content{
+    background-color: rgba(135, 135, 135, 0);
+    position: absolute;
+  }
+  .cake-desc{
+    margin-top: 300px;
+  }
+
+
 }
 </style>

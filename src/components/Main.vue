@@ -47,7 +47,7 @@ export default {
       boloQuatroLeites: boloQuatroLeites,
 
       descBoloBrigadeiro:
-        "Um bolo de brigadeiro, extremamente recheado com chocolate",
+        "Um bolo de brigadeiro extremamente recheado com chocolate",
       descBoloBrownie:
         "Um bolo de brownie de café com muitos morangos e mirtilos",
       descBoloNinho: "Um delicioso bolo de brownie com muito brigadeiro de ninho e nutella",
@@ -68,4 +68,5 @@ export default {
 .context {
   background: rgb(255, 233, 237);
 }
+
 </style>
