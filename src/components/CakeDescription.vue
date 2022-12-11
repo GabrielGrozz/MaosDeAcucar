@@ -19,7 +19,7 @@ export default {
   width: 350px;
   height: 350px;
   border-radius: 5px;
-  padding: 70px 50px;
+  padding: 70px 40px;
 
   background: rgb(255, 214, 239);
   box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 2.6px;
@@ -53,6 +53,7 @@ export default {
     .description {
     height: 45%;
     border-radius: 5px;
+    margin: 35px;
   }
 }
 }
