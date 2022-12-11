@@ -10,7 +10,7 @@ export default {
   props: {
     desc: String,
   },
-}
+};
 </script>
 
 <style scoped>
@@ -19,7 +19,7 @@ export default {
   width: 350px;
   height: 350px;
   border-radius: 5px;
-  padding: 70px 40px;
+  padding: 70px 50px;
 
   background: rgb(255, 214, 239);
   box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 2.6px;
@@ -51,10 +51,10 @@ export default {
 
   @media screen and (max-width: 615px) {
     .description {
-    height: 45%;
-    border-radius: 5px;
-    margin: 35px;
+      height: 45%;
+      border-radius: 5px;
+    }
+
   }
-}
 }
 </style>

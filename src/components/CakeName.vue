@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="['name d-flex align-items-center justify-content-center px-5 mb-2']"
+    :class="['name d-flex align-items-center justify-content-center p-5 mb-2']"
   >
     <slot></slot>
   </div>
