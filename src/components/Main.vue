@@ -5,7 +5,7 @@
     </p>
   </div>
   <div class="context">
-    <h2 class="fs-1 p-3 m-0">Alguns de novos trabalhos</h2>
+    <h2 class="fs-1 p-3 m-0">Alguns de nossos trabalhos</h2>
   </div>
   <div>
     <Cakes
