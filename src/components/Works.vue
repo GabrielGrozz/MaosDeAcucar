@@ -1,15 +1,15 @@
 <template>
     <div class="works-container">
         <div class="title-container">
-            <h1 class="title fs-1 p-3">Montagem</h1>
+            <h1 class="title fs-1 p-3 m-0">Montagem</h1>
         </div>
-        <div class="subtitle">
-            <h2>
+        <div class="subtitle-container p-4">
+            <h2 class="subtitle">
                 Trabalhamos com ingredientes de ótima qualidade e sempre fazendo o melhor para você 
             </h2>
         </div>
-        <Montage :video="cakeMontage" />
-        <Montage :video="PanetoneMontage" />
+        <Montage :video="cakeMontage" direction="1" />
+        <Montage :video="PanetoneMontage" direction="2"/>
     </div>
 </template>
 
@@ -35,6 +35,14 @@ import Montage from "./Montage.vue"
 <style scoped>
  .title-container{
     background: rgb(255, 233, 237);
+ }
+
+ .subtitle-container{
+    background: rgb(255, 106, 106);
+ }
+
+ .subtitle{
+    text-shadow: white 1.5px 1.5px 0.4px;
  }
 
  .works-container{
