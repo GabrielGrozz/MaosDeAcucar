@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="main-container p-5">
+  <div class="main-container">
+    <div class="description p-5">
       <p class="fs-1 fw-semibold">
         Bolos, doces e quiches gourmets feitos com amor
       </p>
@@ -73,7 +73,14 @@ export default {
 </script>
 
 <style scoped>
-.main-container {
+.main-container{
+  margin: 0 auto;
+  max-width: 992px;
+  background: rgb(255, 197, 207);
+
+}
+
+.description {
   box-shadow: inset 0 1px 15px rgb(56, 56, 56);
 }
 

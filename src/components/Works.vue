@@ -8,8 +8,8 @@
                 Trabalhamos com ingredientes de ótima qualidade e sempre fazendo o melhor para você 
             </h2>
         </div>
-        <Montage :video="cakeMontage" direction="1" />
-        <Montage :video="PanetoneMontage" direction="2"/>
+        <Montage class="cake-1" :video="cakeMontage" direction="1" />
+        <Montage class="cake-2" :video="PanetoneMontage" direction="2"/>
     </div>
 </template>
 
@@ -38,7 +38,7 @@ import Montage from "./Montage.vue"
  }
 
  .subtitle-container{
-    background: rgb(255, 106, 106);
+    background: rgb(255, 154, 154);
  }
 
  .subtitle{
@@ -46,7 +46,9 @@ import Montage from "./Montage.vue"
  }
 
  .works-container{
-    border-top: rgb(255, 115, 138) 10px solid
+    border-top: rgb(255, 115, 138) 10px solid;
     }
+
+
 
 </style>
