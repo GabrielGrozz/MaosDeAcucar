@@ -67,17 +67,16 @@ export default {
   },
   components: {
     Cakes,
-    Works
+    Works,
   },
 };
 </script>
 
 <style scoped>
-.main-container{
+.main-container {
   margin: 0 auto;
   max-width: 992px;
   background: rgb(255, 197, 207);
-
 }
 
 .description {

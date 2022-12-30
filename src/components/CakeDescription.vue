@@ -49,12 +49,17 @@ export default {
     border-radius: 0 5px 5px 0;
   }
 
+  @media screen and (max-width: 650px) {
+    .description {
+      height: 425px;
+    }
+  }
+
   @media screen and (max-width: 615px) {
     .description {
       height: 45%;
       border-radius: 5px;
     }
-
   }
 }
 </style>

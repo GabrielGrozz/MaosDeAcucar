@@ -9,7 +9,7 @@
 <script>
 export default {
   name: "Cakename",
-}
+};
 </script>
 
 <style scoped>
@@ -39,7 +39,7 @@ export default {
 @media screen and (max-width: 615px) {
   .name {
     width: 100%;
-    border-radius: 0
+    border-radius: 0;
   }
 }
 </style>

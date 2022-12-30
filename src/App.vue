@@ -32,4 +32,11 @@ export default {
   border: rgba(255, 0, 102,0.5) solid 3px;
   border-bottom: 0;
 }
+
+
+@media screen and (max-width: 615px) {
+  .main{
+    border: 0;
+  }
+  }
 </style>

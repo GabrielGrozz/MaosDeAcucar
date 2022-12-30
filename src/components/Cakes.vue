@@ -6,7 +6,12 @@
       >
       <div class="cakes-container">
         <CakeDescription class="cake-desc" :desc="description" />
-        <CakeContent :cake="cake" :alt="name" :class="['bg-color-' + color, 'cake-content']" id="cake-content" />
+        <CakeContent
+          :cake="cake"
+          :alt="name"
+          :class="['bg-color-' + color, 'cake-content']"
+          id="cake-content"
+        />
       </div>
     </div>
   </div>
@@ -33,7 +38,7 @@ export default {
     color: String,
     description: String,
   },
-}
+};
 </script>
 
 <style scoped>
@@ -53,20 +58,18 @@ export default {
 }
 
 @media screen and (max-width: 615px) {
-  .cakes-container{
+  .cakes-container {
     position: relative;
     display: flex;
     justify-content: center;
   }
-  
-  #cake-content{
+
+  #cake-content {
     background-color: rgba(135, 135, 135, 0);
     position: absolute;
   }
-  .cake-desc{
+  .cake-desc {
     margin-top: 300px;
   }
-
-
 }
 </style>
